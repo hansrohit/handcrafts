@@ -179,6 +179,14 @@ const Home = () => {
                 </div>
               </div>
             ))}
+            <div className="hover:text-black hover:bg-black/20 bg-black text-slate-100 flex border-2 gap-1 justify-center items-center text-center rounded-md">
+              <Link
+                to="/products"
+                className="flex justify-center items-center gap-1"
+              >
+                view more <SquareArrowOutUpRight size={18} />
+              </Link>
+            </div>
           </div>
         </div>
         <Footer />

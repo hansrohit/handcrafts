@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed nav top-0 h-[4rem] rounded-bl-sm rounded-br-sm shadow-md w-full flex justify-center items-center">
+      <div className="sticky nav top-0 h-[4rem] rounded-bl-sm rounded-br-sm shadow-md w-full flex justify-center items-center">
         <div className="h-full w-[99%] md:w-[96%] flex justify-between items-start">
           <div className="h-full w-auto md:w-auto flex justify-center items-center">
-            <h1 className="text-xl font-semibold font-serif">
+            <h1 className="text-xl font-semibold font-serif hover:text-black text-slate-50">
               <Link to="/"> Crafty Creations </Link>
             </h1>
           </div>

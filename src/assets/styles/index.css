@@ -17,4 +17,126 @@
   background-position: center;
   height: 100vh;
   width: 100%;
+  opacity: 1;
+}
+
+.artesians1{
+    background-image: url('../img/art2.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.artesians6{
+    background-image: url('../img/art3.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.artesians2{
+    background-image: url('../img/art4.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.artesians3{
+    background-image: url('../img/art5.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.artesians4{
+    background-image: url('../img/art6.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.artesians5{
+    background-image: url('../img/art1.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.crafts1{
+    background-image: url('../img/crafts6.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.crafts2{
+    background-image: url('../img/crafts5.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.crafts3{
+    background-image: url('../img/crafts4.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.crafts4{
+    background-image: url('../img/crafts3.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.crafts5{
+    background-image: url('../img/crafts2.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.crafts6{
+    background-image: url('../img/crafts1.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.glass{
+    background: rgba( 249, 249, 249, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+body{
+    background-color: ghostwhite;
 }

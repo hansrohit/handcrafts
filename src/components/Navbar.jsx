@@ -76,10 +76,15 @@ const Navbar = () => {
                 type="button"
                 className="h-full w-auto flex gap-1 items-center text-sm"
               >
-                <div>
-                  <ShoppingCart size={24} />
-                </div>
-                CART
+                <Link
+                  to="/carts"
+                  className="h-full flex justify-center items-center gap-1"
+                >
+                  <div>
+                    <ShoppingCart size={24} />
+                  </div>
+                  CART
+                </Link>
               </button>
             </div>
             <div className="h-full w-auto flex items-center">
@@ -87,8 +92,13 @@ const Navbar = () => {
                 type="button"
                 className="h-full w-auto flex items-center justify-center gap-1 text-sm hover:border-2 hover:border-t-0 hover:border-r-0 hover:border-l-0 hover:border-b-black hover:text-slate-50"
               >
-                <UserRound size={20} />
-                ACCOUNT
+                <Link
+                  to="/login"
+                  className="flex justify-center items-center gap-1"
+                >
+                  <UserRound size={20} />
+                  ACCOUNT
+                </Link>
               </button>
             </div>
           </div>
